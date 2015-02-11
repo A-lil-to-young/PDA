@@ -1,0 +1,17 @@
+import java.io.*;
+import java.util.*;
+public class PDA
+{
+    public static void main (String args[])
+    {
+        System.out.print("Enter your age: "); 
+        Scanner kb = new Scanner(System.in);
+        double age = kb.nextDouble();
+        if(age <18) // if age is lower than 18 than access is denied. 
+        {
+            System.out.print("I am sorry, access denied.");
+        }
+        double a = age/2 + 7;
+        int b= 1;
+    }
+}
